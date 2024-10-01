@@ -1,0 +1,65 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="li" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="data.len" />
+          <option value="data.range" />
+          <option value="data.str" />
+          <option value="random" />
+          <option value="src.print_result.tabulate" />
+          <option value="src.print_result.range" />
+          <option value="src.print_result.print" />
+          <option value="src.print_result.len" />
+          <option value="main.print" />
+          <option value="numpy" />
+          <option value="src.genetic.range" />
+          <option value="src.genetic.len" />
+          <option value="src.genetic.sorted" />
+          <option value="src.genetic.str" />
+          <option value="src.genetic.print" />
+          <option value="src.frame_generator.print" />
+          <option value="src.penalty.range" />
+          <option value="src.penalty.iter" />
+          <option value="src.penalty.object" />
+          <option value="src.penalty.next" />
+          <option value="src.pool_functions.len" />
+          <option value="src.pool_functions.range" />
+          <option value="tabulate" />
+          <option value="src.schedule_generator.object" />
+          <option value="src.schedule_generator.len" />
+          <option value="src.schedule_generator.range" />
+          <option value="src.frame_generator.range" />
+          <option value="src.frame_generator.len" />
+          <option value="src.frame_generator.object" />
+          <option value="src.frame_generator.iter" />
+          <option value="src.frame_generator.next" />
+          <option value="src.data.len" />
+          <option value="src.data.range" />
+          <option value="src.data.str" />
+          <option value="algo.data.range" />
+          <option value="algo.data.len" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
