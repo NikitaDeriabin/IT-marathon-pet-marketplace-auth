@@ -8,12 +8,12 @@ def configure_logging():
                 'disable_existing_loggers': False,
                 'formatters': {
                     'console': {
-                        'class': 'logging.Formater',
+                        'class': 'logging.Formatter',
                         'datefmt': '%Y-%m-%d %H:%M:%S',
                         'format': '%(name)s:%(lineno)d - %(message)s'
                     },
                     'file': {
-                        'class': 'logging.Formater',
+                        'class': 'logging.Formatter',
                         'datefmt': '%Y-%m-%d %H:%M:%S',
                         'format': '%(name)s:%(lineno)d - %(message)s'
                     }
@@ -36,7 +36,7 @@ def configure_logging():
                 },
                 'loggers': {
                     'uvicorn': {
-                        'handlers': ['default', 'rotating_files'],
+                        'handlers': ['default', 'rotating_file'],
                         'level': 'INFO'
                     },
                     'main': {
